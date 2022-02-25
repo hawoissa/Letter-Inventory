@@ -10,7 +10,7 @@ public class LetterInventory {
    
    private static final int NUM_ALPHABETS = 26;
    
-   // Constructs an array of 26 and counts each
+   // Constructs an list with letters and counts each
    // letter of the alphabet.
    public LetterInventory(String data) {
       elementData = new int[NUM_ALPHABETS];
